@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chuck Report</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h3><span id="what"></span></h3>
+</body>
+<script type="text/javascript">
+let doing =["getting some Redbull",
+			"matching in an Uber",
+			"getting out of his Uber",
+			"writing code",
+			"flying internationally",
+			"chilling in the Alaska lounge",
+			"at a Cubs game",
+			"chillin' in Chicago"];
+
+document.getElementById("what").innerHTML = doing[Math.floor(Math.random() * doing.length)];
+</script>
+</html>
